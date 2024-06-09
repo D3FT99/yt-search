@@ -2,7 +2,7 @@ function loadContextMenus() {
     chrome.contextMenus.removeAll(() => {
       chrome.contextMenus.create({
         id: "contextMenu1",
-        title: 'Search youtube for "%s"',
+        title: 'Search YouTube for "%s"',
         contexts: ["selection"],
       });
     });
